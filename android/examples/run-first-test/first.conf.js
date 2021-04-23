@@ -17,6 +17,13 @@ exports.config = {
     app: process.env.BROWSERSTACK_APP_ID || 'app_url',
     'browserstack.debug': true
   }],
+  
+  reporters: ["browserstack"],
+  reporterOptions: {
+    browserstack: {
+      outputDir: "./"
+    }
+  },
 
   logLevel: 'info',
   coloredLogs: true,
