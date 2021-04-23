@@ -19,9 +19,9 @@ steps:
   inputs:
     BrowserStackServiceEndPoint: 'BrowserStack connection'
   
-# - task: BrowserStackAppUploader@0
-#   inputs:
-#     appPath: '/users/'
+- task: BrowserStackAppUploader@0
+  inputs:
+    appPath: '/home/vsts/work/1/s/WikipediaSample.apk'
 
 - script: |
     pwd 
