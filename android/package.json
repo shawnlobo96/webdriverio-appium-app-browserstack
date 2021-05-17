@@ -30,6 +30,6 @@
     "@wdio/mocha-framework": "^5.18.7",
     "browserstack-local": "^1.4.5",
     "@wdio/reporter": "7.5.2",
-    "wdio-browserstack-reporter": "^1.0.0"
+    "wdio-browserstack-reporter": "^1.0.1"
   }
 }
